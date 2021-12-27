@@ -29,3 +29,9 @@ const router = useRouter()
 ##### Generar una API con Next.js
 
 Se debe crear una carpeta dentro de pages que se llame `api`, en el cual dentro de esta carpeta van a ir los difererentes endpoint de la API
+
+##### Extender el documento de Next.json
+
+https://nextjs.org/docs/advanced-features/custom-document#caveats
+
+Se debe crear un archivo dentro del `root` de `pages` que se llame `_document.js`
