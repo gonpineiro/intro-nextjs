@@ -1,7 +1,7 @@
 ##### Instalacion Next.js
 
-1) `yarn add next react react-dom`
-3) Agregar los siguente scripts en el package.json
+1. `yarn add next react react-dom`
+2. Agregar los siguente scripts en el package.json
 
 ```json
     "dev": "next dev",
@@ -10,7 +10,7 @@
     "lint": "next lint"
 ```
 
-2) Crear una carpeta que se llame `pages`
+2. Crear una carpeta que se llame `pages`
 
 ##### Routing basado en el FIle System y paginas basicas
 
@@ -23,5 +23,9 @@ Se debe generar una carpeta por cada ruta dinamica, y dentro de la carpeta se de
 Existe un hook que se llama `useRouter()` en el cual dentro existe un objeto que se llama `query`, ahi se almacena el valor (identificador)
 
 ```js
-    const router = useRouter();
+const router = useRouter()
 ```
+
+##### Generar una API con Next.js
+
+Se debe crear una carpeta dentro de pages que se llame `api`, en el cual dentro de esta carpeta van a ir los difererentes endpoint de la API
