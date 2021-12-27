@@ -35,3 +35,8 @@ Se debe crear una carpeta dentro de pages que se llame `api`, en el cual dentro 
 https://nextjs.org/docs/advanced-features/custom-document#caveats
 
 Se debe crear un archivo dentro del `root` de `pages` que se llame `_document.js`
+Tambien se peude crear dentro del `root` de `pages` otro archivo que se llame `_app.js`, en cual sirve para pasar:
+
+- Providers
+- Layout
+- Props adicionales
