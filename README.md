@@ -40,3 +40,11 @@ Tambien se peude crear dentro del `root` de `pages` otro archivo que se llame `_
 - Providers
 - Layout
 - Props adicionales
+
+##### Estilos en Next.js
+
+Hay que formas por defecto de definir estilos:
+
+1. Global CSS (.css)
+2. Modeulo css (.module.css)
+3. CSS-in-JS Styled JSX (NextJS - Vercel)
